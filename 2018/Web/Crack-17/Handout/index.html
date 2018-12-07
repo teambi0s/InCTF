@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Crack-17</title>
+    <style>
+body {
+  text-align: center;
+}
+input {
+  font-size: 200%;
+  margin-top: 5em;
+  text-align: center;
+  width: 26em;
+}
+#result {
+  margin-top: 8em;
+  font-size: 300%;
+  font-family: monospace;
+  font-weight: bold;
+}
+body.granted>#result::before {
+  content: "Access Granted";
+  color: green;
+}
+body.denied>#result::before {
+  content: "Access Denied";
+  color: red;
+}
+#content {
+  display: none;
+}
+body.granted #content {
+  display: initial;
+}
+
+</style>
+    <script>
+	function x(х){ord=Function.prototype.call.bind("".charCodeAt);chr=String.fromCharCode;str=String;function h(s){for(i=0;i<s.length;i++){a=(a+s.length)%2018;b=((typeof b=="undefined"?0:b)+a)%2018}return chr(b+519)+chr(b+550)+chr(a-749)+chr(a-808)}function c(a,b,c){for(i=0;i!=a.length;i++)c=(c||"")+chr(ord(str(a[i]))^ord(str(b[i%b.length])));return c}for(a=0;a!=1e3;a++){}x=h(str(x));source=/ТЄЂђЭБёщФКєѹЯћЅѹѺеЂЖХЌДГѸеДЙѴѕМ/;source.toString=function(){return c(source,x)};try{with(source)return eval(х==c(source,x))}catch(e){return false}}
+
+      function open_safe() {
+        keyhole.disabled = true;
+        password = /^inctf{([0-9a-zA-Z_?]+)}$/.test(keyhole.value);
+        if (password && x(keyhole.value)) return document.body.className = 'granted';
+        else{ return document.body.className = 'denied';}
+      }
+    </script>
+</head>
+<body>
+   <h1 style="padding-top: 5px;"><center>Try and get the Access</center></h1>
+<div>
+  <input id="keyhole" autofocus onchange="open_safe()" placeholder=" ">
+
+</div>
+<div id="result">
+</div>
+</body>
+</html>
