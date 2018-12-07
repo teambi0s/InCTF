@@ -17,5 +17,5 @@ Then the Car Name output field gives the output: /r12DCMji12hUHD7yGda
 On going to that directory we find the flag commented out in the "view source".
 
 ### Chall Author
-[c3rb3ru5] (https://twitter.com/__c3rb3ru5__)
+[c3rb3ru5](https://twitter.com/__c3rb3ru5__)
 
