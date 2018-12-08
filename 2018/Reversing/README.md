@@ -1,4 +1,4 @@
-# Web
+# Reversing
 
 |S.No.| Challenge Name | Points | Solves |
 |:---:|:--------------:|:------:|:------:|
