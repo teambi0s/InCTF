@@ -14,6 +14,10 @@ Dive deep into the image......
 
 inctf{H34R_W1TH_Y0UR_3Y35}
 
+# Author
+
+Bharathi
+
 ## Submission 
 
 Submit flag as given: inctf{THIS_IS_THE_FLAG} ***inctf should be small and inside the curly brackets flag should be capital***
