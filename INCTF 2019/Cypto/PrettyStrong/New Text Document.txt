@@ -1,0 +1,7 @@
+PRetty stroNG
+1000
+Difficulty: Medium/Hard
+
+Author: v3ct0r
+
+Description: nc 18.218.190.20 3197

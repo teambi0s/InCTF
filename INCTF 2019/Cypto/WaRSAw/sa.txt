@@ -1,0 +1,14 @@
+waRSAw
+831
+Difficulty: Easy
+
+Author: s0rc3r3r
+
+Description: Just another conventional RSA attack, isn't it?
+
+Service: nc 18.217.237.201 3197
+
+UPDATE:
+
+Changed server IP address
+Updated challenge script encrypt.py (Sept 21, 1300 UTC)

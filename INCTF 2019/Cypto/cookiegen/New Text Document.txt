@@ -1,0 +1,7 @@
+cookiegen
+975
+Difficulty: Hard
+
+Author: s0rc3r3r
+
+Description: Cookie generation and authentication service Challenge Service nc 18.216.251.207 3197
